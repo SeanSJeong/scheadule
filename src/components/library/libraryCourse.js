@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 
 import Icon from '../icon';
+import Arrow from '../arrow';
 
 class LibraryCourse extends Component {
     render(){
         return (
             <div className="library-course">
+                <div className="library-course__title-arrow">
                 <label className="library-course__title">Problem Solving</label>
                 {Icon('fas fa-check', 'libray-course__icon')}
-                {/* arrow component */}
+                </div>
+                <Arrow className="library-course__arrow"/>
                 {/* action button component */}
               
                 <div className="library-course__description">
                 <label>Course Description</label>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit congue mi. Proin tempus sollicitudin elit ac rutrum. Proin nec lacus sem. Integer convallis cursus malesuada. Nulla ut venenatis turpis. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id lectus volutpat, viverra massa nec, blandit lorem. Nulla ultricies ornare consequat. Pellentesque laoreet tincidunt elit, vitae consectetur odio tincidunt id. Proin rutrum mollis dictum. Donec et consequat sapien. Phasellus vel nibh dignissim, luctus urna et, dapibus lacus. Morbi sed tellus convallis, lobortis metus eget, finibus elit.</p>
                 </div>
             </div>
         )
