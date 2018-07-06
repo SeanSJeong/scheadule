@@ -17,7 +17,7 @@ class LibraryCourse extends Component {
                 {Icon('fas fa-check', 'libray-course__icon')}
                 </div>
                 <Arrow className="library-course__arrow"/>
-                <Action onClick={this.props.toggleEnrolled(this.props.id)} className="library-course__action"/>
+                <Action onClick={() => this.props.toggleEnrolled(this.props.id)} className="library-course__action"/>
         
                 <div className="library-course__description">
                 <label>Course Description</label>
@@ -28,4 +28,4 @@ class LibraryCourse extends Component {
     }
 }
 
-export default connect(null, actions)(LibraryCourse);
+export default connect(null, actions)(LibraryCourse)
