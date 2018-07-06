@@ -10,4 +10,5 @@ class ScheduleCourse extends Component {
         );
     }
 }
+
 export default ScheduleCourse;
