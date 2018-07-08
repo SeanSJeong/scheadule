@@ -23,10 +23,6 @@ class Arrow extends Component {
         this.setState({ status: !this.state.status})
     }.bind(this);
 
-
-
-
-
     render () {
         this.id = `arrow-${this.props.id}`
         return (
