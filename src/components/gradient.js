@@ -6,4 +6,4 @@ class Gradient extends Component {
     }
 }
 
-export default Gradient;
+export default Gradient;;
